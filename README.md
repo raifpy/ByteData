@@ -3,13 +3,12 @@
  
  Açık Kaynak Python Password Stealer [ Win | Lin ]
  
- #
- Kullanım
+# Kullanım
  #
  Çalıştır 
  
     python[3] bytedata_beta.py
-    
+  #  
  Tarayıcı Seçenekleri
  
     Chrome = Chrome Path Yolu | google-chrome | chrome | chrome-browser

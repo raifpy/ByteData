@@ -29,8 +29,7 @@
     Sunucu : PHP & Flask sunucuları ile iletişime geçirilir [ngrok destekli]
     FTP : Tavsiye etmem , iletişime ftp ile geçirilir
     
-#
-Hatalar
+# Hatalar
 #
 
  win32crypt
@@ -44,7 +43,9 @@ Hatalar
   tkinter
  
     sudo apt install python-tk | sudo pacman -S tk
-    
+ 
+ ###
+ ###
  
  Yapımcı :
      

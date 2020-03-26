@@ -100,7 +100,10 @@ try:
         try:
             import Crypto
         except:
-            exit1(kirmizi+"Crypto modülü yüklü değil !"+normal)
+            print(kirmizi+"\tCrypto modülü yüklü değil !"+normal+" Lütfen Dene : \n")
+            print("\tpip3 uninstall crypto\n\tpip3 install crypto\n\tpip3 uninstall pycryptodome\n\tpip3 install pycryptodome\n")
+            print("\tDaha Detaylı Bilgi Için : https://github.com/dlitz/pycrypto/issues/156")
+            exit0()
     else:
         print(kirmizi+"\tSistemin desktelenmiyor ! [Henüz]"+normal)
         raport("Otomatik Desteklenmeyen Sistem Mesajı !")

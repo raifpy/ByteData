@@ -37,7 +37,13 @@
     
  Crypto
  
-    pip install Crypto
+    pip uninstall crypto
+    pip install crypto
+    pip uninstall pycryptodome
+    pip install pycryptodome
+    
+    https://github.com/dlitz/pycrypto/issues/156
+            
     
   tkinter
  

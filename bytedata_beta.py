@@ -78,6 +78,10 @@ try:
     ############33################################################################################################################################################################################################
 
     ts()
+    if sistem == "Windows" and sys.version_info.minor == 8:
+        input(kirmizi+"\tPython3.8 kullanıyorsunuz ! : "+normal+"\n\n\tPyInstaller win32crypt kütüphanesini exe yaparken hata verecektir .\n\tGinede .pyw ve .pyc dosyaları oluşturabilirsiniz . \n\tPython3.7 sürümünü yüklemenizi tavsiye ederim ..")
+        ts()
+
 
     try:import PyInstaller
     except:exit1("pyinstaller kütüphanesi yüklü değil ! : pip3 install pyinstaller")

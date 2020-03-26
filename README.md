@@ -3,9 +3,9 @@
  
  Açık Kaynak Python Password Stealer [ Win | Lin ]
  
- ########
+ #
  Kullanım
- ########
+ #
  Çalıştır 
  
     python[3] bytedata_beta.py
@@ -30,9 +30,9 @@
     Sunucu : PHP & Flask sunucuları ile iletişime geçirilir [ngrok destekli]
     FTP : Tavsiye etmem , iletişime ftp ile geçirilir
     
-#######
+#
 Hatalar
-#######
+#
 
  win32crypt
  

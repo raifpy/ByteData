@@ -3,6 +3,49 @@
  
  Açık Kaynak Python Password Stealer [ Win | Lin ]
  
+ ########
+ Kullanım
+ ########
+ Çalıştır 
+ 
+    python[3] bytedata_beta.py
+    
+ Tarayıcı Seçenekleri
+ 
+    Chrome = Chrome Path Yolu | google-chrome | chrome | chrome-browser
+    Chromium = Chromium Path Yolu | google-chromium | chromium-browser
+    Opera = Opera/Gx Path Yolu | opera | opera-beta
+    Brave = Brave Path Yolu | brave
+    Hepsi
+ 
+ Arayuz Seçenekleri
+ 
+    Yükleniyor Ekranları | Basit Yükleniyor .. arayüzü
+    Oyun Ekranları | Çeşitli Oyunların Sahte Hile arayüzleri
+    Enjekte Dosyalar | .py dosyasının içeriğini pass stealer ile birleştiriyoruz . Arayüz olsun olmasın ..
+    
+ Yol Seçenekleri
+ 
+    Telegram Bot Api : Telegram botları ile iletişime geçirilir
+    Sunucu : PHP & Flask sunucuları ile iletişime geçirilir [ngrok destekli]
+    FTP : Tavsiye etmem , iletişime ftp ile geçirilir
+    
+#######
+Hatalar
+#######
+
+ win32crypt
+ 
+    pip install pywin32
+    
+ Crypto
+ 
+    pip install Crypto
+    
+  tkinter
+ 
+    sudo apt install python-tk | sudo pacman -S tk
+    
  
  Yapımcı :
      

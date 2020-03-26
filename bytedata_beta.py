@@ -24,7 +24,7 @@ try:
     def ts(mesaj=""):
         temizle()
         slogan(mesaj)
-
+        
     def exit1(neden):
         print("\n\t"+neden+"\n")
         exit0()

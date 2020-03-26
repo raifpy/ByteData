@@ -1,7 +1,7 @@
 # bytedata
  [Beta] OpenSource Python Pass Stealer App
  
- Açık Kaynak Python Password Stealer [Win|Py]
+ Açık Kaynak Python Password Stealer [ Win | Py ]
  
  
  Yapımcı :

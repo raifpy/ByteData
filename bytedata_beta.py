@@ -106,11 +106,7 @@ try:
         raport("Otomatik Desteklenmeyen Sistem Mesajı !")
         exit0()
 
-    #update() # Başına "#" getirerek güncelleme kontrolünü kapatabilirsin
-
-
-
-
+    update() # Başına "#" getirerek güncelleme kontrolünü kapatabilirsin
 
     while 1:
         ts()

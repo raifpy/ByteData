@@ -30,7 +30,6 @@
     FTP : Tavsiye etmem , iletişime ftp ile geçirilir
     
 # Hatalar
-#
 
  win32crypt
  

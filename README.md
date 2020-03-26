@@ -2,7 +2,7 @@
  [Beta] OpenSource Python Pass Stealer App
  
  Açık Kaynak Python Password Stealer [ Win | Lin ]
- 
+ <h1>V 0.1</h1>
 # Kullanım
  #
  Çalıştır 

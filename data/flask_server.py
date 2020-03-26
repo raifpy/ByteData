@@ -13,9 +13,18 @@ def flask_start(os,flask,kirmizi,yesil,normal):
                 if not os.path.exists(isim):
                     try:os.mkdir(isim)
                     except:os.system(f"mkdir {isim}")
-                with open(dosya,"a") as dosya:
-                    dosya.write(icerik)
-                    print(f"\n\t{yesil}{dosya.name}'ya yazıldı !{normal}\n")
+                try:
+                    with open(dosya,"a") as dosya:
+                        dosya.write(icerik)
+                        print(f"\n\t{yesil}{dosya.name}'ya yazıldı !{normal}\n")
+                except:
+                    try:
+                        with open(dosya,"ab") as dosya:
+                            dosya.write(icerik.encode())
+                            print(f"\n\t{yesil}{dosya.name}'ya yazıldı !{normal}\n")
+                    except:
+                        print(kirmizi+"\n\nDosya'ya yazılamadı !"+normal)
+
             else:
                 if not flask.request.form.get("kontrol") == None:
                     print(yesil+"\t-----ByteData Check-----\n"+normal)

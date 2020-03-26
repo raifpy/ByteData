@@ -44,8 +44,11 @@
  
     sudo apt install python-tk | sudo pacman -S tk
  
- ###
- ###
+ #
+ 
+ #
+ 
+ 
  
  Yapımcı :
      

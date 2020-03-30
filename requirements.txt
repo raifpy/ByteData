@@ -1,0 +1,5 @@
+colorama
+requests
+pyinstaller
+flask
+py_compile

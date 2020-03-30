@@ -3,6 +3,9 @@
  
  Açık Kaynak Python Password Stealer [ Win | Lin ]
  <h1>V 0.1</h1>
+ 
+ Telegram Bot'umuzu kullanabilirsiniz (sadece exe) : <a href="https://t.me/bytedata_bot" target="_blank">@bytedata_bot</a>
+ 
 # Kullanım
  #
  Çalıştır 

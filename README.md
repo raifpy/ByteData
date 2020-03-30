@@ -34,7 +34,7 @@
     
 # Hatalar
 
- win32crypt
+ failed the execute script ! | win32crypt
  
     pip install pywin32
     

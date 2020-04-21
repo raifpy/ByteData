@@ -52,11 +52,15 @@
  
     sudo apt install python-tk | sudo pacman -S tk
  
- #
+ 
+  pyi_rth_pkgers
+  
+    pip3 install https://github.com/pyinstaller/pyinstaller/archive/develop.zip
+ 
  
  #
- 
- 
+ #
+ #
  
  Yapımcı :
      

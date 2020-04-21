@@ -34,7 +34,7 @@ def flask_start(os,flask,kirmizi,yesil,normal):
             
         elif flask.request.method == "GET":
             print(kirmizi+"\tGET ile erişildi :D [404 teması dönüyor]\n"+normal)
-            return """<title>404 Not Found</title><h1>Not Found</h1><p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>"""
+            return """<title>404 Not Found</title><h1>Not Found</h1><p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>""",404
     app.run(port=8082,debug=0)
 
 if __name__ == "__main__":

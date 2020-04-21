@@ -1,12 +1,10 @@
 from data import flask_server
 import flask,os,platform,sys
+import colorama
+colorama.init()
 sistem = platform.system()
 isim = os.getlogin()
-if sistem == "Windows" and int(platform.uname().release) < 10:
-    print("\n\tRenk kodlarını desteklemeyen sistem kullanıyorsunuz . Renkler devre dışı bırakıldı !")
-    kirmizi = yesil = sari = mavi = pembe = camgoz = normal = ""
-else:
-    kirmizi , yesil , sari , mavi , pembe , camgoz , normal = "\033[31m","\033[32m","\033[33m","\033[34m","\033[35m","\033[36m","\033[0m"
+kirmizi , yesil , sari , mavi , pembe , camgoz , normal = "\033[31m","\033[32m","\033[33m","\033[34m","\033[35m","\033[36m","\033[0m"
 def slogan():
     print("""
     ▄▄▄▄·  ▄· ▄▌▄▄▄▄▄▄▄▄ .·▄▄▄▄   ▄▄▄· ▄▄▄▄▄ ▄▄▄· 

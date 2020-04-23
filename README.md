@@ -75,3 +75,9 @@
      
      t.me/pentestgroup
  
+ Telegram Gruplarımıza katılın :
+ 
+     t.me/depolinux
+     t.me/pngmerkez
+     t.me/kekikakademi
+     t.me/overclickofficial

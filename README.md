@@ -71,13 +71,4 @@
      @keyiflerolsun
      @ykslkrkci
  
- Join our telegram group : 
-     
-     t.me/pentestgroup
- 
- Telegram Gruplarımıza katılın :
- 
-     t.me/depolinux
-     t.me/pngmerkez
-     t.me/kekikakademi
-     t.me/overclickofficial
+ T E L E G R A M  <a href="https://t.me/BetikSonu">{ BetikSonu }</a>
